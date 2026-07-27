@@ -68,6 +68,11 @@ function Home() {
               <span className="desc">东方Project二创推理游戏。邀请码可以通过twitter、bilibili等私信我获取！</span>
             </a>
 
+            <a href="https://th1.panaolin.com" target="_blank" rel="noreferrer" className="glass-card project-card">
+              <h3>東方ミニゲーム MARISA-HIGHLOW </h3>
+              <p>th1.panaolin.com</p>
+              <span className="desc">【R-15 Attention!】一款非常小的小游戏，关于魔理沙的猜大小游戏。非本人创作。略恐怖。</span>
+            </a>
           </div>
         </div>
       </section>
