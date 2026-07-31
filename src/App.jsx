@@ -77,7 +77,24 @@ function Home() {
         </div>
       </section>
 
-      {/* Personal & Articles Section */}
+      {/* Articles Section */}
+      <section id="articles" className="section articles-section">
+        <div className="glass-panel content-container animate-fade-in delay-300">
+          <h2>文章 / Articles</h2>
+          <div className="articles-list" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <Link to="/article/materialistic-world" className="glass-card article-card" style={{display: 'block', textDecoration: 'none'}}>
+              <h4>世界是唯物的</h4>
+              <p>一篇关于物质与意识谁为本原的思考的小说。</p>
+            </Link>
+            <Link to="/article/life-meanings" className="glass-card article-card" style={{display: 'block', textDecoration: 'none'}}>
+              <h4>对抗虚无唯一的武器是意义（我的存在是多么的奇迹！）</h4>
+              <p>关于虚无，存在主义，维克根斯坦的思考。</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Personal Section */}
       <section id="about" className="section personal-section">
         <div className="glass-panel content-container animate-fade-in delay-300">
           <h2>关于我 / About Me</h2>
@@ -98,16 +115,6 @@ function Home() {
                 <a href="https://space.bilibili.com/352690154" target="_blank" rel="noreferrer" className="btn btn-glass">
                   <Tv size={20} /> Bilibili
                 </a>
-              </div>
-            </div>
-
-            <div className="articles">
-              <h3>文章 / Articles</h3>
-              <div className="articles-list">
-                <Link to="/article/materialistic-world" className="glass-card article-card" style={{display: 'block', textDecoration: 'none'}}>
-                  <h4>世界是唯物的</h4>
-                  <p>一篇关于物质与意识谁为本原的思考的小说。</p>
-                </Link>
               </div>
             </div>
           </div>
@@ -189,6 +196,7 @@ function App() {
           <Link to="/" onClick={closeSidebar} className="btn btn-glass">首页 Home</Link>
           <a href="/#toki-pona" onClick={closeSidebar} className="btn btn-glass">关于 panaolin.com</a>
           <a href="/#projects" onClick={closeSidebar} className="btn btn-glass">项目 Projects</a>
+          <a href="/#articles" onClick={closeSidebar} className="btn btn-glass">文章 Articles</a>
           <a href="/#about" onClick={closeSidebar} className="btn btn-glass">关于我 About Me</a>
         </nav>
       </aside>

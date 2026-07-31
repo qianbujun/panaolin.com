@@ -5,9 +5,11 @@ import { ArrowLeft } from 'lucide-react';
 
 // Use Vite's ?raw suffix to import the markdown file as a plain string
 import materialisticWorld from './articles/materialistic_world.md?raw';
+import lifeMeanings from './articles/life_meanings.md?raw';
 
 const articlesMap = {
-  'materialistic-world': materialisticWorld
+  'materialistic-world': materialisticWorld,
+  'life-meanings': lifeMeanings
 };
 
 function ArticleView() {

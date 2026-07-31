@@ -277,10 +277,30 @@
 }
 
 /* Markdown Article Body */
+.article-body img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin: 16px 0;
+}
 .article-body h1, .article-body h2, .article-body h3, .article-body h4 {
   margin-top: 24px;
   margin-bottom: 16px;
   color: var(--color-primary);
+}
+.article-body blockquote {
+  border-left: 4px solid var(--color-primary);
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  background-color: rgba(16, 46, 94, 0.05);
+  border-radius: 0 8px 8px 0;
+  color: var(--color-text-muted);
+}
+.article-body blockquote p {
+  margin-bottom: 0.8em;
+}
+.article-body blockquote p:last-child {
+  margin-bottom: 0;
 }
 .article-body hr {
   border: 0;
