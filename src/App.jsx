@@ -73,6 +73,12 @@ function Home() {
               <p>th1.panaolin.com</p>
               <span className="desc">【R-15 Attention!】一款非常小的小游戏，关于魔理沙的猜大小游戏。非本人创作。略恐怖。</span>
             </a>
+
+            <a href="https://dhold.panaolin.com" target="_blank" rel="noreferrer" className="glass-card project-card">
+              <h3>宿命公牌：一款基于德州的运营扑克游戏 </h3>
+              <p>dhold.panaolin.com</p>
+              <span className="desc">《宿命公牌》是一款融合了德州扑克客观最佳成牌判定与操作运营的原创卡牌博弈桌游。</span>
+            </a>
           </div>
         </div>
       </section>
@@ -89,6 +95,10 @@ function Home() {
             <Link to="/article/life-meanings" className="glass-card article-card" style={{display: 'block', textDecoration: 'none'}}>
               <h4>对抗虚无唯一的武器是意义（我的存在是多么的奇迹！）</h4>
               <p>关于虚无，存在主义，维克根斯坦的思考。</p>
+            </Link>
+            <Link to="/article/kongyiji" className="glass-card article-card" style={{display: 'block', textDecoration: 'none'}}>
+              <h4>孔乙己</h4>
+              <p>与鲁迅的孔乙己不同，我想写一个坚持自我，不愿妥协的自由的人。</p>
             </Link>
           </div>
         </div>
